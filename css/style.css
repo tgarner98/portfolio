@@ -1,0 +1,67 @@
+body#bootstrap-overrides {
+    background-color: white;
+    background: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: orangered;
+}
+
+a {
+    color: black!important;
+}
+
+a:hover {
+    color: orangered!important;
+}
+
+
+.bg-secondary {
+    background: #F5F5F5!important;
+}
+
+.navbar-toggler {
+    background: black!important;
+}
+
+button.bg-primary:hover {
+    background: orangered!important;
+}
+
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+    background-color: orangered!important;
+}
+
+/* Content */
+.masthead {
+    margin-top: 80px;
+    padding-top: 200px;
+    background-image: url("media/codebg.jpg");
+    background-size: cover;
+}
+
+.masthead-heading {
+    font-size: 90px;
+    margin-bottom: 200px!important;
+    text-shadow: 2px 2px 5px black;
+}
+
+.display-4 {
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 20%;
+}
+

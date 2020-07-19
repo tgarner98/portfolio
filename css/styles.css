@@ -130,8 +130,16 @@ p {
         font-size: 30px;
     }
 
-    #menu-button {
-        
+    .masthead-heading {
+        font-size: 55px;
+    }
+
+    #about-me {
+        font-size: 20px;
+    }
+
+    .icons {
+        font-size: 20px;
     }
 }
 

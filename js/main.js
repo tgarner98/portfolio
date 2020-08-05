@@ -1,4 +1,4 @@
-AOS.init();
+AOS.init({offset: -200});
 
 // Smooth Scrolling //
 $('a[href*="#"]')

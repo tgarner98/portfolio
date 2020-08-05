@@ -12,7 +12,9 @@
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3fce74ea87.js" crossorigin="anonymous"></script>
+    <!-- Main Stylesheet-->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--Animate-on-Scroll Library-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Tyler Garner</title>
 </head>
@@ -34,36 +36,53 @@
             </div>
         </div>
     </nav>
-
     <!-- Content -->
     <header class="masthead bg-primary text-white text-center">
         <div class="container d-flex align-items-center flex-column">
-            <!-- Masthead Heading-->
             <h1 data-aos="zoom-in" class="masthead-heading text-uppercase mb-0">Hi, I'm Tyler. I'm a front-end developer.</h1>
         </div>
     </header>
-
+    <!-- Portfolio -->
     <div class="jumbotron" id="portfolio">
         <h1 data-aos="fade-down" class="display-4">Take a look at some of my work!</h1>
         <hr>
       </div>
     </div>
-
     <div data-aos="zoom-in" class="container">
-
         <div class="row">
-            <div class="col-sm">
-                <img class="img-fluid" id="prj-img" src="css/media/aoe.png" alt="Responsive Image">
+            <!-- Samurai 77 Card-->
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <a href="https://samurai77.netlify.app"><img src="css/media/samurai.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <p class="card-text">Some may say your first real website isn't worth showing off, but I say it's a good milestone to showcase how far I've come since then!</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm">
-                <img class="img-fluid" id="prj-img" src="css/media/aoe.png" alt="Responsive Image">
+            <!-- AOE Card-->
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <a href="https://edenarchives.netlify.app"><img src="css/media/aoe.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <p class="card-text">A personal website designed to record my Dungeons & Dragons games.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm">
-                <img class="img-fluid" id="prj-img" src="css/media/aoe.png" alt="Responsive Image">
+            <!-- VentureGen Card-->
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <a href="https://venturegen.netlify.app"><img src="css/media/venturegen.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <p class="card-text">A simple tool built to cut down the D&D character creation process to under a minute.</p>
+                    </div>
+                </div>
             </div>
+                
+            
+            
         </div>
     </div>
-
+    <!-- About -->
     <div class="jumbotron" id="about">
         <h1 data-aos="fade-right" class="display-4">About Me</h1>
         <hr>
@@ -72,10 +91,10 @@
                 <img data-aos="fade-right" id="my-photo" src="css/media/tyler.png" alt="">
                 <h1>Who am I?</h1>
                 <hr>
-                <p>My name is Tyler Garner, and I'm a beginner front-end web developer from Phoenix, Arizona. I'm currently in my final
-                    semester at Glendale Community College to earn a Certificate in Web Development. Though I have 
-                    a very basic grasp on HTML, CSS, and JavaScript, I'm always eager for new opportunities to learn 
-                    more and improve my skillset!
+                <p id="about-me">My name is Tyler Garner, and I'm a beginner front-end web developer from Phoenix, Arizona. I'm currently
+                    studying at Glendale Community College to earn a Certificate in Web Development. When I'm not working on projects,
+                    I like to spend my time playing video games with friends, listening to rock music with the volume too high, or 
+                    writing new quests for Dungeons & Dragons!
                 </p>
             </div>
             <div class="col-sm">
@@ -95,33 +114,34 @@
             </div>
         </div>
     </div>
-
-        <div class="jumbotron">
-            <h1 class="display-4" id="contact">Contact Me</h1>
-            <hr>
-            <h1 class="text-center">Have questions or want to work with me? Contact me anytime below!</h1>
+    <!-- Contact -->
+    <div class="jumbotron">
+        <h1 class="display-4" id="contact">Contact Me</h1>
+        <hr>
+        <h1 class="text-center">Have questions or want to work with me? Contact me anytime below!</h1>
             
-            <div class="text-center icons">
-                <i class="fas fa-envelope"></i><span id="email"> dev.tgarner98@gmail.com</span>
+        <div class="text-center icons">
+            <i class="fas fa-envelope"></i><span id="email"> dev.tgarner98@gmail.com</span>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="text-center" id="facebook">
+                    <button class="social-link"><a href="https://www.facebook.com/tyler.garner.56/"><i class="fab fa-facebook-square"></i></a></button>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-sm">
-                    <div class="text-center icons" id="facebook">
-                        <button class="social-link"><a href="https://www.facebook.com/tyler.garner.56/"><i class="fab fa-facebook-square"></i></a></button>
-                    </div>
+            <div class="col-sm">
+                <div class="text-center" id="twitter">
+                    <button class="social-link"><a href="https://twitter.com/TylerGa76837703"><i class="fab fa-twitter-square"></i></a></button>
                 </div>
-                <div class="col-sm">
-                    <div class="text-center icons" id="twitter">
-                        <button class="social-link"><a href="https://twitter.com/TylerGa76837703"><i class="fab fa-twitter-square"></i></a></button>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="text-center icons">
-                        <button class="social-link"><a href="https://www.instagram.com/velegyr98/"><i class="fab fa-instagram-square"></i></a></button>
-                    </div>
+            </div>
+            <div class="col-sm ">
+                <div class="text-center">
+                    <button class="social-link"><a href="https://www.linkedin.com/in/tyler-garner-68b7521b3/"><i class="fab fa-linkedin"></i></a></button>
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
 </body>

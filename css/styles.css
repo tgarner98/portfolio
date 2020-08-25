@@ -99,8 +99,12 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
     color: #7952b3;
 }
 
-#skill-jq {
-    color: #0868AB;
+#skill-sass {
+    color: #CD6799;
+}
+
+#skill-react {
+    color: #61DAFB;
 }
 
 #current {
